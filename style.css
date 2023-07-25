@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #333;
+    font-family: karla;
+    font-size: 18px;
+    line-height: 1.8; 
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #1a91db;
+}
+
+h1, h3 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CSS side-bar */
+#side-bar {
+    width: 25%;
+    height: 100vh;
+    background-color: #eee;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+#side-bar h1 {
+    margin: 1rem 0 0;
+}
+
+#side-bar ul {
+    padding: 0;
+    margin: 2rem 0;
+}
+
+#side-bar ul li a {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+}
+
+#side-bar ul li a:hover {
+    border-color: #1a91db;
+}
+
+/* CSS container */
+#container {
+    width: 75%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+}
+
+#container h3 {
+    margin: 2rem 0;
+    padding-top: 4rem;
+    font-size: 24px;
+}
+
+.option-form {
+    display: flex;
+}
+
+.breed-list {
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+.btn {
+    height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #1782c4;
+    transition: 0.5s;
+}
+
+.render-image {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    height: 500px;
+    max-height: 500px;
+    position: relative;
+}
+.image {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    max-width: calc(100% - 2rem);
+    height: auto;
+    width: auto;
+    max-height: calc(500px - 4rem);
+    margin: auto;
+    display: block;
+}
